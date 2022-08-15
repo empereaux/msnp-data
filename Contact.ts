@@ -1,7 +1,6 @@
 import { ContactListTypes } from "./ContactListTypes";
 import { ContactNetworkType } from "./ContactNetworkType";
 import { PhoneNumbers } from "./PhoneNumbers";
-import { Status } from "./Status";
 
 /**
  * Represents a single contact.
