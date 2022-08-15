@@ -1,6 +1,7 @@
 import { Capabilities } from "./Capabilities";
 import { ContactListType } from "./ContactListType";
 import { PhoneNumbers } from "./PhoneNumbers";
+import { Profile } from "./Profile";
 
 /**
  * Represents a user.
@@ -31,4 +32,9 @@ export type User =
      * The user's phone numbers.
      */
     phone: PhoneNumbers,
+
+    /**
+     * The user's profile.
+     */
+    profile: Profile,
 }
