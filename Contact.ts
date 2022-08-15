@@ -42,9 +42,4 @@ export type Contact =
      * The contact's phone numbers.
      */
     phone: PhoneNumbers,
-
-    /**
-     * The contacts's status.
-     */
-    status: Status,
 }
