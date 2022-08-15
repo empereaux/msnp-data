@@ -1,13 +1,13 @@
 {
     "author": "empereaux",
-    "bugs": "https://github.com/empereaux/msnp-data-adapter/issues",
-    "homepage": "https://github.com/empereaux/msnp-data-adapter",
+    "bugs": "https://github.com/empereaux/msnp-data/issues",
+    "homepage": "https://github.com/empereaux/msnp-data",
     "license": "MIT",
     "main": "./dist/index.js",
-    "name": "msnp-data-adapter",
+    "name": "msnp-data",
     "repository": {
         "type": "git",
-        "url": "https://github.com/empereaux/msnp-data-adapter"
+        "url": "https://github.com/empereaux/msnp-data"
     },
     "version": "0.1.2",
     "scripts": {
