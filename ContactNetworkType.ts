@@ -1,5 +1,5 @@
 /**
- * Represents a network type of a Contact.
+ * Represents the network type of a Contact.
  */
 export enum ContactNetworkType
 {

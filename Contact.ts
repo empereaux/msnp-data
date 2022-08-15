@@ -1,4 +1,4 @@
-import { Capabilities } from "./Capabilities";
+import { ContactListTypes } from "./ContactListTypes";
 import { ContactNetworkType } from "./ContactNetworkType";
 import { PhoneNumbers } from "./PhoneNumbers";
 import { Status } from "./Status";
@@ -9,14 +9,19 @@ import { Status } from "./Status";
 export type Contact =
 {
     /**
-     * The contact's capabilities.
-     */
-    capabilities: Capabilities,
-
-    /**
      * The handle of the contact (e.g. "example@hotmail.com").
      */
     handle: string,
+
+    /**
+     * The ID of the contact.
+     */
+    id: string,
+
+    /**
+     * The lists the contact is on.
+     */
+    lists: ContactListTypes,
 
     /**
      * The network of the contact.

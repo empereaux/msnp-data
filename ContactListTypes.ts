@@ -1,7 +1,7 @@
 /**
- * Represents the type of a ContactList.
+ * Represents the types of a ContactList.
  */
-export enum ContactListType
+export enum ContactListTypes
 {
     /**
      * A forward list.
@@ -42,30 +42,30 @@ export enum ContactListType
 /**
  * Gets the abbreviation used for a specific list (e.g. "FL" or "AL").
  */
-export function getContactListTypeAbbreviation(type: ContactListType): string
+export function getContactListTypeAbbreviation(type: ContactListTypes): string
 {
     switch (type)
     {
-        case ContactListType.forward:   return "FL";
-        case ContactListType.allow:     return "AL";
-        case ContactListType.block:     return "BL";
-        case ContactListType.reverse:   return "RL";
-        case ContactListType.pending:   return "PL";
+        case ContactListTypes.forward:   return "FL";
+        case ContactListTypes.allow:     return "AL";
+        case ContactListTypes.block:     return "BL";
+        case ContactListTypes.reverse:   return "RL";
+        case ContactListTypes.pending:   return "PL";
     }
 }
 
 /**
- * Gets the ContactListType represented by the abbreviation.
+ * Gets the ContactListTypes represented by the abbreviation.
  */
-export function getContactListTypeFromAbbreviation(abbreviation: string): ContactListType | null
+export function getContactListTypeFromAbbreviation(abbreviation: string): ContactListTypes | null
 {
     switch (abbreviation)
     {
-        case "FL": return ContactListType.forward;
-        case "AL": return ContactListType.allow;
-        case "BL": return ContactListType.block;
-        case "RL": return ContactListType.reverse;
-        case "PL": return ContactListType.pending;
+        case "FL": return ContactListTypes.forward;
+        case "AL": return ContactListTypes.allow;
+        case "BL": return ContactListTypes.block;
+        case "RL": return ContactListTypes.reverse;
+        case "PL": return ContactListTypes.pending;
     }
 
     return null;

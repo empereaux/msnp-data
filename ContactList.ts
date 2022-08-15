@@ -1,5 +1,5 @@
 import { Contact } from "./Contact";
-import { ContactListType } from "./ContactListType";
+import { ContactListTypes } from "./ContactListTypes";
 
 /**
  * Represents a contact list.
@@ -14,5 +14,5 @@ export type ContactList =
     /**
      * The type of the buddy list.
      */
-    type: ContactListType,
+    type: ContactListTypes,
 }
