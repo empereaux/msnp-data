@@ -9,6 +9,16 @@ import { Status } from "./Status";
 export type Contact =
 {
     /**
+     * The contact's friendly name.
+     */
+    friendlyName: string,
+
+    /**
+     * The IDs of the groups the contact belongs to.
+     */
+    groups: Array<string>,
+
+    /**
      * The handle of the contact (e.g. "example@hotmail.com").
      */
     handle: string,

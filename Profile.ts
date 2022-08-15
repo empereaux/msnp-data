@@ -14,6 +14,11 @@ export type Profile =
     country: string,
 
     /**
+     * The user's friendly name.
+     */
+    friendlyName: string,
+
+    /**
      * The gender.
      */
     gender: "male" | "female" | "unspecified",
